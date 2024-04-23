@@ -1,10 +1,18 @@
 p {
   text-align: center;
 }
-h1 {
+.titulo-principal{
+  padding-left: 20px;
+}
+
+.texto-centralizado{
   text-align: center;
 }
 
 #missao{
   font-size: 28px;
+}
+
+#banner{
+  width: 100%;
 }
