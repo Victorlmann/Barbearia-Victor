@@ -16,3 +16,17 @@ p {
 #banner{
   width: 100%;
 }
+
+.principal{
+  background-color: #cccccc
+  padding: 30px;
+}
+.imagem-beneficios{
+  width: 50%;
+}
+.ul{
+  display: inline-block;
+  vertical-align: top;
+  width: 20%;
+  margin-right: 15%;
+}
