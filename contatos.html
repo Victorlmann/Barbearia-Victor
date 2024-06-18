@@ -32,18 +32,29 @@
   <main>
    <form>
      <label for="nomeSobrenome">Nome e Sobrenome</label>
-     <input type="text" id="nomeSobrenome" class="input-padrao">
+     <input type="text" id="nomeSobrenome" class="input-padrao" required>
 
      <label for="email">Email</label>
-      <input type="text" id="email" class="input-padrao">
+      <input type="email" id="email" class="input-padrao" placeholder="xxxxxxxx@gmail.com" required>
 
      <label for="telefone">Telefone</label>
-     <input type="text" id="telefone" class="input-padrao">
+     <input type="tel" id="telefone" class="input-padrao" placeholder="(XX) X XXXX-XXXX">
      
 <label for="mensagem">Deixe aqui sua mensagem</label>
-     <textarea cols="30" rows="5" id="mensagem" class="input-padrao"></textarea>
-   </form>
+     <textarea cols="30" rows="5" id="mensagem" class="input-padrao" placeholder="Qual é o elogio ao nosso estabelecimento?"></textarea>
 
+     <fieldset>
+<legend>Como prefere o nosso contato?</legend>
+
+       <label> <input type="radio"> Email </label>
+       <label> <input type="radio"> Telefone </label>
+       <label> <input type="radio"> WhatsApp </label>
+     </fieldset>
+
+     <input type="submit" value="Enviar o formulário" class="enviar">
+
+     
+   </form>
   </main>
 
   <footer>
