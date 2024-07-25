@@ -146,3 +146,51 @@ th, td {
   padding: 8px 15px
 }
 
+#banner {
+  width: 100%;
+
+}
+
+.titulo-principal {
+  padding-left: 20px;
+  text-align: center;
+}
+
+.texto-centralizado {
+  text-align: center;
+}
+
+.beneficios {
+  padding: 20px;
+  background-color: FFFFFF;
+}
+
+ul {
+  display: inline-block;
+  vertical-align: top;
+  width: 20%;
+  margin-right: 15%;
+}
+
+.item {
+  font-style: italic;
+}
+
+.imagem-beneficios {
+  width: 50%;
+}
+
+p {
+  text-align: center;
+}
+
+em strong{
+  color: red;
+}
+
+#missao {
+  font-size: 28px;
+}
+.item{
+  font-style: italic;
+}
