@@ -146,19 +146,24 @@ th, td {
   padding: 8px 15px
 }
 
-#banner {
+.banner {
   width: 100%;
 
 }
 
-.titulo-principal {
-  padding-left: 20px;
-  text-align: center;
+.principal{
+  background-color: #FEFEFE;
+  padding:
+    margin: 0 auto;
 }
 
-.texto-centralizado {
-  text-align: center;
+.titulo-principal {
+text-align: center;
+  font-size: 2em;
+  margin: 0 0 1em;
+  
 }
+
 
 .beneficios {
   padding: 20px;
@@ -180,17 +185,17 @@ ul {
   width: 50%;
 }
 
-p {
-  text-align: center;
+.principal p{
+  margin: 0 0 1em;
 }
 
-em strong{
-  color: red;
-}
 
-#missao {
-  font-size: 28px;
-}
 .item{
   font-style: italic;
+}
+
+.utensilios{
+  width: 120px;
+  float: left;
+  margin: 0 20px 20px 0;
 }
